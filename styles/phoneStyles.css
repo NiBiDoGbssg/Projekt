@@ -1,0 +1,41 @@
+@media (orientation: portrait) {
+    header {
+        font-size: 10vw;
+    }
+
+    .subtitle {
+        font-size: 6vw;
+    }
+    
+    .text {
+        font-size: 4vw;
+    }
+    
+    nav {    
+        width: 5%;
+    }    
+    
+    @keyframes closeNav {
+        from{
+            width: 100%;
+            height: 13vh;
+        }
+        to{
+            width: 5%;
+            height: 100%;
+        }
+    }
+    
+    .star{
+        font-size: 8dvw;
+    }
+    
+    .current{
+        border-left: 4dvw solid var(--contrast);
+        border-right: 4dvw solid var(--contrast);
+    }
+    
+    .navtxt {
+        font-size: 4dvw;
+    }
+}

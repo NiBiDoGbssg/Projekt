@@ -1,0 +1,44 @@
+#innerContent {
+    display: grid;
+    grid-template-rows:repeat(6, 9%) 45%;
+    padding-left: 5%;
+}
+
+.line {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.form {
+    padding: 1vh;
+    height: 80%;
+    width: 80%;
+    background-color: var(--primary);
+    border-radius: 20px;
+}
+
+form {
+    height: 100%;
+}
+
+input {
+    max-width: 100%;
+    background-color: var(--secondary);
+    border-width: 1px;
+    border-radius: 0.5dvh;
+}
+
+textarea {
+    resize: none;
+
+    height: 80%;
+    width: 100%;
+
+    border-width: 1px;
+    background-color: var(--secondary);
+    border-radius: 0.5dvh;
+}
+
+.formdiv {
+    max-width: 100%;
+}

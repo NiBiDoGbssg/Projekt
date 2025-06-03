@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/baseStyles.css">
+    <link rel="stylesheet" href="./styles/navStyles.css">
+    <link rel="stylesheet" href="./styles/phoneStyles.css">
+    <link rel="stylesheet" href="./styles/portfolioStyles.css">
+    <link rel="icon" href="./gfx/icon.png">
+    <script src="./script/script.js" defer></script>
+    <title>Portfolio</title>
+</head>
+<body>
+    <nav id="nav" class="close"
+    onmouseenter="openNav()"
+    onmouseleave="closeNav()"
+    >
+        <span id="plus" onclick="navAction()">+</span>
+        <li class="navElm"><a href="./index.html">
+            <div class="link">
+                <span class="star">&#9733</span>
+                <span class="navtxt">Über mich</span>
+            </div>
+        </a></li>
+        <li class="navElm"><a href="./ability.html">
+            <div class="link">
+                <span class="star">&#9733</span>
+                <span class="navtxt">Fähigkeiten</span>
+            </div>
+        </a></li>
+        <li class="navElm"><a href="./portfolio.html">
+            <div class="link">
+                <span class="star current">&#9733</span>
+                <span class="navtxt">Porfolio</span>
+            </div>
+        </a></li>
+        <li class="navElm"><a href="./contect.html">
+            <div class="link">
+                <span class="star">&#9733</span>
+                <span class="navtxt">Kontakt</span>
+            </div>
+        </a></li>
+    </nav>
+    <main>
+        <article id="content">
+            <header>
+                <p>Portfolio</p>
+            </header>
+            <article id="innerContent">
+                <div class="line left">
+                    <div>
+                        <p class="subtitle">Gamehub</p>
+                        <p class="text">Ich und meine Arbeitskollegen haben zu vertiefung der Web-Programmiersprachen ein Gamehub mit diversen Spielen programmiert</p>
+                    </div>
+                    <video class="video" autoplay loop muted playsinline>
+                        <source src="./gfx/gamehub.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="line right">
+                    <img class="grafic" src="./gfx/telefonbuch.png" alt="Telefonboch">
+                    <div>
+                        <p class="subtitle">Telefonbuch</p>
+                        <p class="text">Wir haben im Bühler aus Übungszwecken ein Telefonbuch gestaltet. Dadurch konnten wir die Programmiersprache C vertiefen und lernen, wie es ist in einem Team zu arbeiten</p>
+                    </div>
+                </div>
+            </article>
+        </article>
+    </main>
+</body>
+</html>

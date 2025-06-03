@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/baseStyles.css">
+    <link rel="stylesheet" href="./styles/navStyles.css">
+    <link rel="stylesheet" href="./styles/phoneStyles.css">
+    <link rel="stylesheet" href="./styles/contactStyles.css">
+    <link rel="icon" href="./gfx/icon.png">
+    <script src="./script/script.js" defer></script>
+    <title>Kontakt</title>
+</head>
+<body>
+    <nav id="nav" class="close"
+    onmouseenter="openNav()"
+    onmouseleave="closeNav()"
+    >
+        <span id="plus" onclick="navAction()">+</span>
+        <li class="navElm"><a href="./index.html">
+            <div class="link">
+                <span class="star">&#9733</span>
+                <span class="navtxt">Über mich</span>
+            </div>
+        </a></li>
+        <li class="navElm"><a href="./ability.html">
+            <div class="link">
+                <span class="star">&#9733</span>
+                <span class="navtxt">Fähigkeiten</span>
+            </div>
+        </a></li>
+        <li class="navElm"><a href="./portfolio.html">
+            <div class="link">
+                <span class="star">&#9733</span>
+                <span class="navtxt">Porfolio</span>
+            </div>
+        </a></li>
+        <li class="navElm"><a href="./contect.html">
+            <div class="link">
+                <span class="star current">&#9733</span>
+                <span class="navtxt">Kontakt</span>
+            </div>
+        </a></li>
+    </nav>
+    <main>
+        <article id="content">
+            <header>
+                <p>Kontakt</p>
+            </header>
+            <article id="innerContent" class="text">
+                <div class="line">
+                    <p>Telefon:</p>
+                    <p>079 470 62 75</p>
+                </div>
+                <div class="line">
+                    <p>E-Mail:</p>
+                    <p>nicola.bianchini@edu.gbssg.ch</p>
+                </div>
+                <div></div>
+                <div class="line">
+                    <p>Ort:</p>
+                    <p>Niederhelfenschwil</p>
+                </div>
+                <div class="line">
+                    <p>PLZ:</p>
+                    <p>9527</p>
+                </div>
+                <div class="line">
+                    <p>Adresse:</p>
+                    <p>Obgass 10B</p>
+                </div>
+                <div class="line">
+                    <p>Kontaktiere mich:</p>
+                    <div class="form">
+                        <form action="">
+                            <textarea type="text" placeholder="Nachricht" required></textarea>
+                            <div class="formdiv">
+                                <input type="email" placeholder="email">
+                                <input type="submit">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </article>
+        </article>
+    </main>
+</body>
+</html>

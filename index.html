@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/baseStyles.css">
+    <link rel="stylesheet" href="./styles/navStyles.css">
+    <link rel="stylesheet" href="./styles/phoneStyles.css">
+    <link rel="stylesheet" href="./styles/indexStyles.css">
+    <link rel="icon" href="./gfx/icon.png">
+    <script src="./script/script.js" defer></script>
+    <title>Über mich</title>
+</head>
+<body>
+    <nav id="nav" class="close"
+    onmouseenter="openNav()"
+    onmouseleave="closeNav()"
+    >
+        <span id="plus"  onclick="navAction()">+</span>
+        <li class="navElm"><a href="./index.html">
+            <div class="link">
+                <span class="star current">&#9733</span>
+                <span class="navtxt">Über mich</span>
+            </div>
+        </a></li>
+        <li class="navElm"><a href="./ability.html">
+            <div class="link">
+                <span class="star">&#9733</span>
+                <span class="navtxt">Fähigkeiten</span>
+            </div>
+        </a></li>
+        <li class="navElm"><a href="./portfolio.html">
+            <div class="link">
+                <span class="star">&#9733</span>
+                <span class="navtxt">Porfolio</span>
+            </div>
+        </a></li>
+        <li class="navElm"><a href="./contect.html">
+            <div class="link">
+                <span class="star">&#9733</span>
+                <span class="navtxt">Kontakt</span>
+            </div>
+        </a></li>
+    </nav>
+    <main>
+        <article id="content">
+            <header>
+                <p>Über mich</p>
+            </header>
+            <article id="innerContent">
+                <div class="line text">
+                    <p>Vorname:</p>
+                    <p>Nicola</p>
+                </div>
+                <div class="line text">
+                    <p>Nachname:</p>
+                    <p>Bianchini</p>
+                </div>
+                <div class="line text">
+                    <p>Beruf:</p>
+                    <p>Informatiker</p>
+                </div>
+                <div class="line text">
+                    <p>Firma:</p>
+                    <p>Bühler AG</p>
+                </div>
+                <div class="line text">
+                    <p>Famillie:</p>
+                    <p>Mutter:</p>
+                    <p>Anita</p>
+                </div>
+                <div class="line text">
+                    <p></p>
+                    <p>Vater:</p>
+                    <p>Domizio</p>
+                </div>
+                <div class="line text">
+                    <p></p>
+                    <p>Schwester</p>
+                    <p>Gianna</p>
+                </div>
+                <div class="line text">
+                </div>
+                <div class="line text">
+                    <p>Lebenslauf:</p>
+                    <p>Kindergarten</p>
+                    <p>ab 2001</p>
+                </div>
+                <div class="line text">
+                    <p></p>
+                    <p>Primarschule</p>
+                    <p>ab 2013</p>
+                </div>
+                <div class="line text">
+                    <p></p>
+                    <p>Oberstufe</p>
+                    <p>ab 2019</p>
+                </div>
+                <div class="line text">
+                    <p></p>
+                    <p>Lehre</p>
+                    <p>ab 2023</p>
+                </div>
+            </article>
+            <div id="picture">
+                <img src="./gfx/portrait.jpg" alt="Nicola Bianchini">
+            </div>
+        </article>
+    </main>
+</body>
+</html>
